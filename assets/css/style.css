@@ -94,6 +94,7 @@ body {
     font-family: var(--font-lexend-deca);
     font-size: 1.5rem;
     font-style: normal;
+    cursor: pointer;
 }
 
 .card__content:nth-child(1) .btn_card__content{
@@ -104,6 +105,27 @@ body {
 }
 .card__content:nth-child(3) .btn_card__content{
     color: var(--primary-very-dark-cyan);
+}
+
+
+.btn_card__content:hover{
+    border: 2px solid var(--neutral-very-light-gray);
+    
+}
+
+.card__content:nth-child(1) .btn_card__content:hover{
+    background: var(--primary-bright-orange);
+    color: var(--neutral-very-light-gray);
+}
+
+.card__content:nth-child(2) .btn_card__content:hover {
+    background: var(--primary-dark-cyan);
+    color: var(--neutral-very-light-gray);
+}
+
+.card__content:nth-child(3) .btn_card__content:hover {
+    background: var(--primary-very-dark-cyan);
+    color: var(--neutral-very-light-gray);
 }
 
 @media screen and (max-width: 720px) {
